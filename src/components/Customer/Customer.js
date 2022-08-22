@@ -23,18 +23,6 @@ const Customer = () => {
       customer_list[i]["timestamp"] = getCurrentTime();
       customer_list[i]["status"] = "Available";
     }
-    // axios(
-    //   { url:"http://34.207.158.105/",
-    //     method:"POST",
-    //     headers: {
-    //       'Content-Type': 'application/json',
-    //     },
-    //     data:JSON.stringify(customer_list),
-    //   }).then((res)=>{
-    //     setResponse(JSON.stringify(res.data['msg']))
-    //     setAlert(true)
-    //     setTimeout(()=>setAlert(false), 2000)
-    //    })
 
     axios({
       url: "http://127.0.0.1:8080/register/customers",
@@ -53,14 +41,6 @@ const Customer = () => {
       setTimeout(()=>setAlert(false), 2000)
     });
 
-    // let res2 = fetch( "http://127.0.0.1:8080/search",{
-    //   method: 'POST',
-    //   headers: { 'Content-Type': 'application/json' },
-    //   body: JSON.stringify({ title: 'React POST Request Example' })
-    // })
-    // .then((response)=>response.json())
-    // .then((data)=> console.log(JSON.stringify(data)))
-    // console.log(res2)
   };
 
   return (
