@@ -9,20 +9,6 @@ import { useNavigate } from "react-router-dom";
 
 
 const Taxi = () => {
-  // let [dogImage, setDogImage] = useState(null);
-  // const [location, setLocation] = useState(true)
-
-  // 3. Create out useEffect function
-  // useEffect(() => {
-
-  //   const interval = setInterval(()=> {
-  //       fetch("https://dog.ceo/api/breeds/image/random")
-  //       .then((response) => response.json())
-  //       .then((data) => setDogImage(data.message));
-  //   },5000)
-  //   return () => clearInterval(interval);
-  // }, []);
-
   const [response, setResponse] = useState("");
   const [alert, setAlert] = useState(false);
   const navigate = useNavigate();
@@ -38,7 +24,7 @@ const Taxi = () => {
       taxi_list[i]["status"] = "Available";
     }
     axios({
-      url: "http://127.0.0.1:8080/register/taxis",
+      url: "http://127.0.0.1:8080/register/taxis", // making request to backend localhost
       method: "POST",
       headers: {
         "Content-Type": "application/json",
