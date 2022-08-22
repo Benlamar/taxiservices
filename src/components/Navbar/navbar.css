@@ -1,0 +1,17 @@
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.links{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: rgb(216, 216, 216);
+    font-weight: 500;
+}
+
+.links:hover{
+    color: aqua;
+}
