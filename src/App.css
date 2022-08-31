@@ -43,3 +43,14 @@
     font-size: 14;
     margin: 4px;
 }
+
+.panel-container{
+    height: 75vh;
+}
+
+
+#footer{
+    position: relative;
+    bottom: 0;
+    margin-top: 60px;
+}

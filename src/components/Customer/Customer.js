@@ -1,10 +1,14 @@
-import React, { useState } from "react";
-import { customer_list } from "../../data/customers.js";
-import TaxiNavbar from "../Navbar/TaxiNavbar";
 import axios from "axios";
-import { getCurrentTime } from "../helper";
-import Alert from "react-bootstrap/Alert";
+
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Alert from "react-bootstrap/Alert";
+
+import { customer_list } from "../../data/customers.js";
+
+import Footer from "../Footer/Footer.js";
+import TaxiNavbar from "../Navbar/TaxiNavbar";
+import { getCurrentTime } from "../helper";
 
 
 const Customer = () => {
@@ -25,10 +29,11 @@ const Customer = () => {
     }
 
     axios({
-      url: "http://127.0.0.1:8080/register/customers",
+      url: "http://3.83.144.254:80/register/customers",
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*"
       },
       data: JSON.stringify(customer_list),
     }).then((res) => {
@@ -40,7 +45,6 @@ const Customer = () => {
       setAlert(true);
       setTimeout(()=>setAlert(false), 2000)
     });
-
   };
 
   return (
@@ -82,6 +86,8 @@ const Customer = () => {
           Register
         </button>
       </div>
+
+      <Footer />
     </div>
   );
 };

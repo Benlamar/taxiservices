@@ -11,7 +11,7 @@ function TaxiNavbar() {
         Taxi and Booking</Navbar.Brand>
           <Nav className="me-auto m-0">
             <Link className='links' to="/">Home</Link>
-          </Nav>
+          </Nav>       
       </Container>
     </Navbar>
   );

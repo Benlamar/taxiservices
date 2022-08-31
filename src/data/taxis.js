@@ -301,5 +301,208 @@ export let taxi_list = [
             "coordinates": [28.54712, 77.15641]
         },
         "timestamp":""
+    },
+    {
+        "id":31,
+        "name": "Melu",
+        "type": "Deluxe",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.52242, 77.35674]
+        },
+        "timestamp":""
+    },
+    {
+        "id":32,
+        "name": "Tei",
+        "type": "Deluxe",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.72642, 77.25124]
+        },
+        "timestamp":""
+    },
+    {
+        "id":33,
+        "name": "Kellin",
+        "type": "Deluxe",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.52772, 77.32424]
+        },
+        "timestamp":""
+    },
+    {
+        "id":34,
+        "name": "Elley",
+        "type": "Deluxe",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.55042, 77.28524]
+        },
+        "timestamp":""
+    },
+    {
+        "id":35,
+        "name": "Mollu",
+        "type": "Deluxe",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.55672, 77.38569]
+        },
+        "timestamp":""
+    },
+    
+    {
+        "id":36,
+        "name": "Iren",
+        "type": "Luxury",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.62172, 77.28524]
+        },
+        "timestamp":""
+    },
+    {
+        "id":37,
+        "name": "Mura",
+        "type": "Luxury",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.68682, 77.25241]
+        },
+        "timestamp":""
+    },
+    {
+        "id":38,
+        "name": "Peck",
+        "type": "Luxury",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.66551, 77.27834]
+        },
+        "timestamp":""
+    },
+    {
+        "id":39,
+        "name": "Just",
+        "type": "Luxury",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.67002, 77.29941]
+        },
+        "timestamp":""
+    },
+    {
+        "id":40,
+        "name": "Qven",
+        "type": "Luxury",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.62832, 77.27541]
+        },
+        "timestamp":""
+    },
+     {
+        "id":41,
+        "name": "Llod",
+        "type": "Luxury",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.57712, 77.18541]
+        },
+        "timestamp":""
+    },
+     {
+        "id":42,
+        "name": "May",
+        "type": "Luxury",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.75856, 77.18541]
+        },
+        "timestamp":""
+    },
+     {
+        "id":43,
+        "name": "Hope",
+        "type": "Luxury",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.57902, 77.18541]
+        },
+        "timestamp":""
+    },
+     {
+        "id":44,
+        "name": "Preny",
+        "type": "Luxury",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.70902, 77.22290]
+        },
+        "timestamp":""
+    },
+     {
+        "id":45,
+        "name": "Iell",
+        "type": "Luxury",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.71402, 77.18541]
+        },
+        "timestamp":""
+    },
+     {
+        "id":46,
+        "name": "Ellona",
+        "type": "Luxury",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.70232, 77.18541]
+        },
+        "timestamp":""
+    }
+    ,
+     {
+        "id":47,
+        "name": "Zola",
+        "type": "Luxury",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.70782, 77.18741]
+        },
+        "timestamp":""
+    }
+    ,
+     {
+        "id":48,
+        "name": "Vinue",
+        "type": "Luxury",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.71232, 77.18991]
+        },
+        "timestamp":""
+    },
+     {
+        "id":49,
+        "name": "Miiller",
+        "type": "Luxury",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.76702, 77.18451]
+        },
+        "timestamp":""
+    },
+     {
+        "id":50,
+        "name": "Orenda",
+        "type": "Luxury",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.79602, 77.12341]
+        },
+        "timestamp":""
     }
 ]
